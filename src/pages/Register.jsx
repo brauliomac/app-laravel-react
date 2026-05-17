@@ -79,7 +79,6 @@ function Register() {
       .then((response) => {
         // console.log(response);
         toast.success("Cadastro realizado com sucesso!");
-        setFormData({});
         setIsLoading(false);
       })
       .catch((error) => {
